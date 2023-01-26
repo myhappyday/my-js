@@ -119,3 +119,32 @@
 // }
 
 // console.log('total: ', total);
+
+// --- DOM ---
+// const btnAdd = document.querySelector('button[data-add]');
+// const btnReset = document.querySelector('button[data-reset]');
+// const valueInput = document.querySelector('input[data-value]');
+// const outputEl = document.querySelector('.js-output span');
+
+// // console.log(btnAdd.textContent);
+// // btnAdd.textContent = 'qwerty';
+
+// // console.log(valueInput);
+
+// let total = 0;
+
+// btnAdd.addEventListener('click', function () {
+//   console.log('click OK');
+//   const value = Number(valueInput.value);
+//   console.log(typeof value, value);
+
+//   total += value;
+//   // console.log('total:', total);
+//   outputEl.textContent = total;
+//   valueInput.value = '';
+// });
+
+// btnReset.addEventListener('click', function () {
+//   total = 0;
+//   outputEl.textContent = '0';
+// });
